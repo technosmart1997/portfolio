@@ -44,7 +44,6 @@ render(){
                     <section className="hero d-flex flex-column justify-content-center align-items-center">
                             <div className="hero-container" data-aos="fade-in">
                                 <h2 className="hi">Hi I'm </h2>   
-                                <br />
                                 <h1>{this.state.name} </h1>                             </div>
                     </section>    
                 

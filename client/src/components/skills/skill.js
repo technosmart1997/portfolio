@@ -9,7 +9,7 @@ const SkillPage = (props) => {
             </div>
                     <div class="row skills-content">
                         {props.skills.map((item) => (
-                            <div className="col-lg-2 col-md-4 col-sm-6 col-6" data-aos="fade-up" key={item.id}>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-6 main_div" data-aos="fade-up" key={item.id}>
                                 <div className="skill">
                                      <i class="fas fa-code fa-fw"></i>&nbsp; <span className="skillTitle">{item.name}</span>
                                 </div>                               

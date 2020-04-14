@@ -10,6 +10,11 @@
     border-color: #a333c8!important;
   }
 
+  .main_div {
+    padding-right : 10px;
+    padding-left : 10px;
+  }
+
   .skill i {
     font-size: 16px;
     padding : 8px 10px;
@@ -22,6 +27,5 @@
   }
 
   .skillTitle{
-    padding : 8px 6px;
-  }
+    padding : 8px 6px;  }
 

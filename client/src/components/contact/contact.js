@@ -38,7 +38,7 @@ class ContactPage extends Component {
     
             <div className="row" data-aos="fade-in">
     
-              <div className="col-lg-5 d-flex align-items-stretch">
+              <div className="col-lg-5 col-md-5 col-sm-6 col-xs-12 d-flex align-items-stretch">
                 <div className="info box">
                   <div className="address">
                     <i class="fas fa-map-marker-alt"></i>
@@ -58,15 +58,15 @@ class ContactPage extends Component {
                   <MyMapComponent
                     isMarkerShown
                     googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
-                    loadingElement={<div style={{ height: `290px` }} />}
-                    containerElement={<div style={{ height: `290px` }} />}
-                    mapElement={<div style={{ height: `290px` }} />}
+                    loadingElement={<div style={{ height: `250px` }} />}
+                    containerElement={<div style={{ height: `250px` }} />}
+                    mapElement={<div style={{ height: `250px` }} />}
                     />
                 </div>
     
               </div>
     
-              <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <div className="col-lg-7 col-md-7 col-sm-6 col-xs-12  mt-5 mt-lg-0 d-flex align-items-stretch">
                 <form className="php-email-form box" onSubmit={this.mySubmitHandler}  >
                   <div className="form-row">
                     <div className="form-group col-md-6">

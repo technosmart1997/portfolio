@@ -28,7 +28,7 @@ class Content extends Component {
     }
 
     componentDidMount() {
-        axios.get('about/getMyData').then(res => {
+        axios.get('/about/getMyData').then(res => {
             const results = res.data.data;
             this.setState({ projects: results.projects });
             this.setState({ skills : results.skills}); 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import './Sidebar.css';
-import image from '../assets/profile_final.png';
+import image from '../assets/profile_final.webp';
 
 
 class Car extends Component {
