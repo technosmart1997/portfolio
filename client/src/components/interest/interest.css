@@ -1,0 +1,28 @@
+.interest {
+    width : 100%;
+    text-align : center;
+    margin-bottom :30px;
+    padding : 20px 10px;
+    border-radius : 6px;  
+    transition: transform 0.5s;
+}
+
+.interest:hover { 
+    cursor : pointer;
+    -webkit-box-shadow: 0px 0px 25px 0px #d1c4e9;
+    -moz-box-shadow: 0px 0px 25px 0px #d1c4e9;
+    box-shadow: 0px 0px 25px 0px #d1c4e9;
+    transform: scale(1.02);
+}
+
+.interest h4{
+    margin-top : 10px;
+    font-size : 13pt;
+    font-weight : 800;
+    font-family:  Helvetica, sans-serif;
+    color : #a333c8;
+}
+
+.fa-3x{
+    font-size: 3.5em;
+}

@@ -1,0 +1,39 @@
+.left_box h2 {
+    font-size: 28px;
+      font-weight: bold;
+      line-height: 1.3;
+      font-family:  Helvetica, sans-serif;
+      color: #a333c8;
+}
+.left_box {
+    text-align: center;
+}
+
+.left_box p .heart{
+    color : red;
+} 
+
+.left_box p .coffee{
+    color : brown;
+} 
+
+.right_box .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0px;
+    margin-right: 8px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  .right_box .social-links a:hover {
+    background: #a333c8;
+    color: #fff;
+    text-decoration: none;
+  }

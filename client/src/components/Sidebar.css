@@ -1,0 +1,125 @@
+
+.sidebar .profile {
+    padding : 20px 0px;
+}
+
+.sidebar .profile img {
+    margin: 10px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+    border-radius: 50%;
+  }
+  
+
+  .sidebar .profile h1 {
+    font-size: 24px;
+    margin: 0;
+    padding:0px;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .sidebar .profile h1 a, #header .profile h1 a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sidebar .profile .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0px;
+    margin-right: 8px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  .sidebar .profile .social-links a:hover {
+    background: #a333c8;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-menu {
+    padding-top: 30px;
+    }
+  
+  .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-menu > ul > li {
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .nav-menu a {
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 8px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+  
+  .nav-menu a i {
+    font-size: 24px;
+    padding-right: 8px;
+    color: #6f7180;
+    padding : 3px;
+    margin-right: 12px;
+  }
+  
+ .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a { 
+    background: #a333c8; 
+    color : #fff;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+
+  .nav-menu a:hover .nav-menu a i{
+    background: #fff; 
+  }
+  
+  .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
+    color: #fff;
+  }
+  
+  /* Mobile Navigation */
+  .mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    background: none;
+    font-size: 26px;
+    font-weight:bold;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 1;
+    cursor: pointer;
+    text-align: right;
+  }
+  
+  .mobile-nav-toggle i {
+    color: #149ddd;
+  }
+  
+  .mobile-nav-active .mobile-nav-toggle i {
+    color: #fff;
+  }
+  
+  
